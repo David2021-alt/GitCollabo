@@ -1,0 +1,20 @@
+.Container{
+    list-style: none;
+    margin: 10px 30;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border-radius: 50%;
+    transition: 5s;
+    background-color: darkturquoise;
+}
+.Container:hover {
+    flex: auto;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    background-color: darkturquoise;
+}
